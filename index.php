@@ -7,7 +7,7 @@ $i = 0;
 
 function countdown_to_i($i) {
     if ($i <= 0) {
-        return
+        return;
     }
     $i--;
     countdown_to_i($i);
